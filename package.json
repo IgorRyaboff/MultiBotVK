@@ -1,0 +1,26 @@
+{
+  "name": "multibotvk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorRyaboff/MultiBotVK.git"
+  },
+  "keywords": [
+    "vk",
+    "callback",
+    "api",
+    "vkontakte",
+    "bot"
+  ],
+  "author": "Igor Ryabov <vk.com/igorryaboff, github.com/IgorRyaboff>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IgorRyaboff/MultiBotVK/issues"
+  },
+  "homepage": "https://github.com/IgorRyaboff/MultiBotVK#readme"
+}
