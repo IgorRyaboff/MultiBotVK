@@ -14,7 +14,7 @@
 
 ```js
 module.exports = data => new Promise(resolve => {
-  if (data.type == 'confirmation')
+  if (data.type == 'confirmation') return resolve({ text: "45ffa75a" });
   console.log('Hello world from community ' + data.group_id);
   resolve();
 });
