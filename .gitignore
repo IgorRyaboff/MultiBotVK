@@ -1,6 +1,9 @@
 #Скрипты MultiBotVK
 scripts/*
 
+#Настройки MultiBotVK
+config.js*
+
 # Logs
 logs
 *.log
