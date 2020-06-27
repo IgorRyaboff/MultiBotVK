@@ -4,7 +4,7 @@ const config = require('../config');
 http.createServer((req, res) => {
     let url = req.url.replace('/', '').trim();
     let complete = (text = 'ok', code = 200) => {
-        console.log(code, text);
+        console.log(url, code, text);
         res.statusCode = code;
         res.end(text);
     }
