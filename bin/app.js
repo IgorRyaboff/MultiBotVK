@@ -46,4 +46,4 @@ http.createServer((req, res) => {
             complete('MultiBotVK Error: Script promise rejected: ' + e.toString(), 500);
         });
     });
-}).listen(80);
+}).listen(config.port || 80);
